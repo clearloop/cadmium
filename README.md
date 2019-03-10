@@ -1,5 +1,8 @@
-# Cadmium
-> Lifestory - Count-Down version.
+# Colorbook
+> Colorbook-version-0.1.0.
+
+## TODO
++ [ ] DrawerList Feedback
 
 ## Getting Started
 
@@ -14,7 +17,7 @@ open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app
 
 __Step 2__:
 
-Run all devices, on my mac:
+Run all devices, on your mac:
 
 ```shell
 # ./run.sh
