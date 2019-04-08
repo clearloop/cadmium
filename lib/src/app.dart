@@ -4,20 +4,20 @@ import 'package:xbatch/custom/expanded_list_view.dart';
 import 'package:xbatch/layout/column_list.dart';
 import './list.dart';
 
-class ColorBook extends StatefulWidget {
-  const ColorBook({
+class ColorJar extends StatefulWidget {
+  const ColorJar({
       Key key,
   }) : super(key: key);
   
   @override
-  _ColorBook createState() => _ColorBook();
+  _ColorJar createState() => _ColorJar();
 }
 
-class _ColorBook extends State<ColorBook> {
+class _ColorJar extends State<ColorJar> {
 
-  Color _color = Colors.blue[900];
+  MaterialColor _color = Colors.primaries[5];
   
-  void _setColor(Color color) {
+  void _setColor(MaterialColor color) {
     setState(() {
         _color = color;
         print(color.toString());
@@ -27,10 +27,10 @@ class _ColorBook extends State<ColorBook> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Colorbook',
+      title: 'Colorjar',
       theme: ThemeData(primaryColor: _color),
       home: CustomScaffold(
-        title: 'Colorbook',
+        title: 'Colorjar',
         drawerTitle: 'Colors',
         body: ColumnList(
           rawList: <Widget>[ExpandedListView(list: bodyList(context, _color))]

@@ -73,7 +73,7 @@ packages:
       name: pedantic
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "1.5.0"
+    version: "1.4.0"
   quiver:
     dependency: transitive
     description:
@@ -92,7 +92,7 @@ packages:
       name: source_span
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "1.5.5"
+    version: "1.5.4"
   stack_trace:
     dependency: transitive
     description:
@@ -145,9 +145,11 @@ packages:
   xbatch:
     dependency: "direct main"
     description:
-      path: "../xbatch"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: afe0473c0d5378243e192424a84ca2378163f191
+      url: "https://github.com/clearloop/xbatch"
+    source: git
     version: "0.0.1"
 sdks:
-  dart: ">=2.1.1-dev.0.0 <3.0.0"
+  dart: ">=2.1.0 <3.0.0"

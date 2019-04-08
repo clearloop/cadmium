@@ -5,3 +5,16 @@ Your emulator is out of date, please update by launching Android Studio:
  - Check "Android Emulator" checkbox
  - Click "OK"
 
+emulator: Saving state on exit with session uptime 637627 ms
+nohup: emulator: No such file or directory
+qemu_ram_alloc_user_backed: call
+Warning: Failed to get QCocoaScreen for NSObject(0x0) ((null):0, (null))
+INFO: QtLogger.cpp:66: Warning: Failed to get QCocoaScreen for NSObject(0x0) ((null):0, (null))
+
+
+emulator: emulator window was out of view and was recentered
+
+emulator: Saving state on exit with session uptime 2182704 ms
+emulator: ERROR: Unknown AVD name [New_Device_API_Q], use -list-avds to see valid list.
+HOME is defined but there is no file New_Device_API_Q.ini in $HOME/.android/avd
+(Note: Directories are searched in the order $ANDROID_AVD_HOME, $ANDROID_SDK_HOME/avd and $HOME/.android/avd)

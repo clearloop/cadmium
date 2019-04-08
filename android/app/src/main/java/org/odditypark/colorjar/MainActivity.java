@@ -1,4 +1,4 @@
-package com.example.amnesia;
+package org.odditypark.colorjar;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 List<Widget> bodyList(BuildContext context, MaterialColor color) {
   return List<Widget>.generate(9, (int index) => Container(
       child: Text(
-        color.toString().substring(35,45).toUpperCase(),
+        color[(index + 1) * 100].toString().substring(6,16).toUpperCase(),
         style: TextStyle(
           fontSize: Theme.of(context).textTheme.subhead.fontSize,
           color: Theme.of(context).colorScheme.onPrimary
