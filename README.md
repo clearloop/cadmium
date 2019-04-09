@@ -1,8 +1,13 @@
-# Colorbook
-> Colorbook-version-0.1.0.
+# Colorjar
+> The wall on which the prophets wrote is cracking at the seams.
 
 ## TODO
-+ [ ] DrawerList Feedback
++ drawer
+  + save colors
++ endDrawer
+  + math toolkit
++ replace
+  + longpress feedback
 
 ## Getting Started
 
